@@ -1,8 +1,8 @@
 package soccer;
 
 public class Game {
-    private Team homeTeam;
-    private Team awayTeam;
+    protected Team homeTeam;
+    public Team awayTeam;
     private Goal[] goals;
 
     public Team getHomeTeam( ) {

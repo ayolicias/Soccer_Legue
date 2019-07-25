@@ -6,6 +6,10 @@ public class Goal {
     private double theTime;
 
     public Team getTheTeam( ) {
+        int homeTeamGoals = 0;
+
+
+        
         return theTeam;
     }
 
