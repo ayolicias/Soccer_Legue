@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adfee1a1-3d2b-43bc-a166-52f8dc30ec95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utility/GameUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Soccer_League/soccer/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Soccer_League/soccer/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Soccer_League/soccer/Goal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Soccer_League/soccer/Goal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Soccer_League/soccer/League.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Soccer_League/soccer/League.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Soccer_League/soccer/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Soccer_League/soccer/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Soccer_League/soccer/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Soccer_League/soccer/Team.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/soccer/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/soccer/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/soccer/Goal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/soccer/Goal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/soccer/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/soccer/League.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/soccer/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/soccer/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/soccer/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/soccer/Team.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/soccer/League.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+            <state relative-caret-position="258">
+              <caret line="57" column="25" lean-forward="true" selection-start-line="57" selection-end-line="58" />
             </state>
           </provider>
         </entry>
@@ -140,7 +129,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564151245400" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564151865262" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -211,7 +200,7 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40802675" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28929767" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39966556" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -322,8 +311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/soccer/League.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+        <state relative-caret-position="258">
+          <caret line="57" column="25" lean-forward="true" selection-start-line="57" selection-end-line="58" />
         </state>
       </provider>
     </entry>

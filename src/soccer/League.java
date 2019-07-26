@@ -49,13 +49,13 @@ public class League {
         Game currGame = theGames[0];
 
 //        Game currGame = new Game();
-//        currGame.setHomeTeam(team1);
-//        currGame.setAwayTeam(team2);
-        System.out.println(currGame.homeTeam.playerArray[0]);
+        currGame.homeTeam = (team1);
+        currGame.awayTeam = (team2);
+//        System.out.println(currGame.homeTeam.playerArray[0]);
 
         Goal goal1 = new Goal();
         goal1.theTeam = team1;
-//        goal1.thePlayer = currGame.homeTeam.playerArray[2];
+        goal1.thePlayer = currGame.homeTeam.playerArray[2];
         goal1.theTime = (55);
 
         Goal[] theGoals = {goal1};
