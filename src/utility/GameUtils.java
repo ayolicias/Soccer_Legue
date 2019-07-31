@@ -9,7 +9,6 @@ import java.lang.reflect.Field
         ;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.ArrayList;
 import java.util.Arrays;
 import soccer.*;
 
@@ -24,23 +23,24 @@ public class GameUtils {
         //System.out.println(currGame.awayTeam + " : " + currGame.homeTeam);
 
         // Or possibly throw an Exception?
-        if (currGame.goals == null) {
-            currGame.goals = new Goal[(int) (Math.random() * 10)];   // If goals not initialized max will be 9
+        if (currGame.getGoals() == null) {
+            currGame.setGoals(new Goal[(int) (Math.random() * 10)]);   // If goals not initialized max will be 9
         }
 
-        //System.out.println(currGame.goals.length);
+//        System.out.println(currGame.goals.length);
         int i = 0;
-        for (Goal currGoal : currGame.goals) {
+        for (Goal currGoal : currGame.getGoals()) {
             currGoal = new Goal();
-            currGoal.theTeam = Math.random() > 0.5 ? getHomeTeam(currGame, "home") : getHomeTeam(currGame, "away");
-            currGoal.thePlayer = currGoal.theTeam.playerArray[(int) (Math.random() * currGoal.theTeam.playerArray.length)];
-            currGoal.theTime = (int) (Math.random() * 90);
-            currGame.goals[i] = currGoal;
+            currGoal.setTheTeam(Math.random() > 0.5 ? getHomeTeam(currGame, "home") : getHomeTeam(currGame, "away"));
+            currGoal.setThePlayer(currGoal.getTheTeam().getPlayerArray()[(int) (Math.random() * currGoal.getTheTeam().getPlayerArray().length)]);
+            currGoal.setTheTime((int) (Math.random() * 90));
+            currGame.getGoals()[i] = currGoal;
             i++;
         }
-        Arrays.sort(currGame.goals, (g1, g2) -> Double.valueOf(g1.theTime).compareTo(Double.valueOf(g2.theTime)));
+        Arrays.sort(currGame.getGoals(), ( g1, g2) -> Double.valueOf(g1.getTheTime()).compareTo(Double.valueOf(g2.getTheTime())));
 
     }
+
 
     // Uses reflection so works with getter method or public field
     private static Team getHomeTeam(Game currGame, String homeOrAway) {
